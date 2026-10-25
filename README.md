@@ -24,12 +24,13 @@
 - **Themes:** Material You and AMOLED Pure Black.
 - **Recent Files and Widget:** Quick access to recent files and storage locations.
 
-## 🖼 App Screenshots
+🖼 App Screenshots
 
-<img width="288" alt="OpenBridge screenshot" src="https://github.com/user-attachments/assets/73873373-940d-441f-aaff-f7679424c16e" />
-
-<img width="288" alt="OpenBridge screenshot" src="https://github.com/user-attachments/assets/2f065d8d-fdc8-4d1e-bafe-db42e26a00ae" />
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/tapman104/OpenBridge/refs/heads/main/images/Screenshot_20261025-132633.png" alt="OpenBridge screenshot 1" width="30%">
+  <img src="https://raw.githubusercontent.com/tapman104/OpenBridge/refs/heads/main/images/Screenshot_20261025-132641.png" alt="OpenBridge screenshot 2" width="30%">
+  <img src="https://raw.githubusercontent.com/tapman104/OpenBridge/refs/heads/main/images/Screenshot_20261025-132749.png" alt="OpenBridge screenshot 3" width="30%">
+</p>
 ## 📂 Documentation
 
 See [PROJECTBUILD.md](./PROJECTBUILD.md) for technical details and build instructions.
