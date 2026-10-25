@@ -1,4 +1,4 @@
-r (OpenBridge)
+(OpenBridge)
 
 **OpenBridge ** is a lightweight Android utility for opening files with compatible apps, detecting file types using MIME types and binary signatures, and handling Android URI permissions.
 
