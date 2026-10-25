@@ -1,10 +1,10 @@
-# AnyFile X - Project Gemini Modernization
+# OpenBridge - Project Gemini Modernization
 
-![Project Banner](https://img.shields.io/badge/Project-AnyFile%20X-blueviolet?style=for-the-badge&logo=android)
+![Project Banner](https://img.shields.io/badge/Project-OpenBridge-blueviolet?style=for-the-badge&logo=android)
 ![Version](https://img.shields.io/badge/Version-1.0.0--Stable-green?style=for-the-badge)
 ![UI](https://img.shields.io/badge/UI-Compose%20%2B%20Material%203-orange?style=for-the-badge&logo=jetpackcompose)
 
-> **AnyFile X** (formerly Open Bridge / AnyFile Opener) is a high-performance, intent-driven Android file routing utility. It serves as the "Universal Translator" for the Android filesystem, ensuring that every file has a home and every intent finds its destination.
+> **OpenBridge** is a high-performance, intent-driven Android file routing utility. It serves as the "Universal Translator" for the Android filesystem, ensuring that every file has a home and every intent finds its destination.
 
 ---
 
@@ -14,8 +14,8 @@ Project Gemini represents a complete architectural overhaul and rebranding of th
 
 ### 💎 Rebranding & Identity
 
-- **Namespace Migration**: Fully transitioned to the streamlined `com.anyfile.x` package namespace across all components, activities, and providers.
-- **Visual Refresh**: Implementation of a modern Material 3 design system (`AnyFileOpenerTheme`) with full support for Dynamic Color (Material You) and pure black AMOLED Dark Mode.
+- **Namespace Migration**: Fully transitioned to the streamlined `com.openbridge.x` package namespace across all components, activities, and providers.
+- **Visual Refresh**: Implementation of a modern Material 3 design system (`OpenBridgeTheme`) with full support for Dynamic Color (Material You) and pure black AMOLED Dark Mode.
 - **Identity Unification**: Consolidated all launcher and settings flows under a unified Compose-driven experience, while preserving `MainActivity` as a high-speed, transparent intent gatekeeper.
 - **Official Repository**: Synchronized and hosted at [AnyFile-Opener](https://github.com/tapman104/AnyFile-Opener.git).
 
@@ -31,7 +31,7 @@ Project Gemini represents a complete architectural overhaul and rebranding of th
 ## ✨ Key Features
 
 ### 🔍 Smart Detection (`MimeDetector`)
-Unlike standard file managers, AnyFile X inspects the **Magic Bytes** of every file to identify its true nature, even when misnamed or lacking an extension.
+Unlike standard file managers, OpenBridge inspects the **Magic Bytes** of every file to identify its true nature, even when misnamed or lacking an extension.
 
 ### 🛡 Permission Bridging (`IntentRouter` & `MainActivity`)
 Automatically handles the complex `FLAG_GRANT_READ_URI_PERMISSION` propagation, ensuring that target applications (media players, document viewers, package installers) have explicit permission to read the file URI.
@@ -50,7 +50,7 @@ A deep-dive tool into file metadata and structure:
 
 ## 🛡️ Technical Safeguards & Stability
 
-To ensure long-term reliability and prevent the "messed up" states typical of legacy intent-handling apps, AnyFile X implements several architectural "locks":
+To ensure long-term reliability and prevent the "messed up" states typical of legacy intent-handling apps, OpenBridge implements several architectural "locks":
 
 ### 🧵 Lifecycle-Safe I/O
 - **De-coupled Execution**: All heavy file analysis in `OpenAsBottomSheet` and `InspectBottomSheet` is performed using `lifecycleScope.launch(Dispatchers.IO)`.
@@ -71,8 +71,8 @@ To ensure long-term reliability and prevent the "messed up" states typical of le
 
 ## 📈 Current Status
 
-- [x] **Namespace Migration** (`com.anyfile.x`)
-- [x] **Material 3 Implementation** (`AnyFileOpenerTheme`, Dynamic Color, AMOLED Dark Mode)
+- [x] **Namespace Migration** (`com.openbridge.x`)
+- [x] **Material 3 Implementation** (`OpenBridgeTheme`, Dynamic Color, AMOLED Dark Mode)
 - [x] **Hybrid UI Architecture** (Jetpack Compose + ViewBinding BottomSheets)
 - [x] **Lifecycle Stability Fixes** (Resolved `IllegalStateException` crashes via ApplicationContext decoupling)
 - [x] **Binary Inspector UI** (Hex & ASCII dumps, pagination, metadata inspection)

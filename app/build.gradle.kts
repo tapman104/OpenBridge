@@ -25,11 +25,11 @@ val resolvedStoreFile = if (hasAllSigningProperties) {
 val isSigningConfigured = hasAllSigningProperties && resolvedStoreFile?.exists() == true
 
 android {
-    namespace = "com.anyfile.x"
+    namespace = "com.openbridge.x"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.anyfile.x"
+        applicationId = "com.openbridge.x"
         minSdk = 26
         targetSdk = 34
         versionCode = 1

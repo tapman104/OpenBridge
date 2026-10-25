@@ -1,4 +1,4 @@
-# ProGuard / R8 Configuration for AnyFile Opener
+# ProGuard / R8 Configuration for OpenBridge
 
 # Preserve required attributes for Kotlin, Coroutines, and Serialization reflection/metadata
 -keepattributes *Annotation*,InnerClasses,Signature,EnclosingMethod
@@ -18,23 +18,23 @@
 }
 
 # Explicit preservation for project data models
--keep,allowobfuscation class com.anyfile.x.data.RecentFile {
+-keep,allowobfuscation class com.openbridge.x.data.RecentFile {
     <fields>;
     <init>(...);
 }
--keep,allowobfuscation class com.anyfile.x.data.RecentFile$$serializer {
+-keep,allowobfuscation class com.openbridge.x.data.RecentFile$$serializer {
     <fields>;
     <methods>;
 }
 
 # Android BroadcastReceivers instantiated dynamically by the system
--keep class com.anyfile.x.widget.FolderWidgetProvider {
+-keep class com.openbridge.x.widget.FolderWidgetProvider {
     public <init>();
     public void onUpdate(android.content.Context, android.appwidget.AppWidgetManager, int[]);
     public void onReceive(android.content.Context, android.content.Intent);
 }
 
--keep class com.anyfile.x.routing.ChooserResultReceiver {
+-keep class com.openbridge.x.routing.ChooserResultReceiver {
     public <init>();
     public void onReceive(android.content.Context, android.content.Intent);
 }

@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "AnyFileOpener"
+rootProject.name = "OpenBridge"
 include(":app")

@@ -1,6 +1,6 @@
-# 🌉 AnyFile Opener (OpenBridge)
+# 🌉 OpenBridge
 
-**AnyFile Opener** is a lightweight Android utility for opening files with compatible apps, detecting file types using MIME types and binary signatures, and handling Android URI permissions.
+**OpenBridge** is a lightweight Android utility for opening files with compatible apps, detecting file types using MIME types and binary signatures, and handling Android URI permissions.
 
 ## 📥 Download
 
@@ -20,9 +20,9 @@
 
 ## 🖼 App Screenshots
 
-<img width="288" alt="AnyFile Opener screenshot" src="https://github.com/user-attachments/assets/73873373-940d-441f-aaff-f7679424c16e" />
+<img width="288" alt="OpenBridge screenshot" src="https://github.com/user-attachments/assets/73873373-940d-441f-aaff-f7679424c16e" />
 
-<img width="288" alt="AnyFile Opener screenshot" src="https://github.com/user-attachments/assets/2f065d8d-fdc8-4d1e-bafe-db42e26a00ae" />
+<img width="288" alt="OpenBridge screenshot" src="https://github.com/user-attachments/assets/2f065d8d-fdc8-4d1e-bafe-db42e26a00ae" />
 
 ## 📂 Documentation
 
